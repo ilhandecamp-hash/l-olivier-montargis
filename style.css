@@ -178,7 +178,9 @@ ul { list-style: none; }
 }
 
 .logo-icon {
-  font-size: 1.8rem;
+  height: 36px;
+  width: auto;
+  vertical-align: middle;
   animation: gentleSway 3s ease-in-out infinite;
 }
 
@@ -691,7 +693,11 @@ ul { list-style: none; }
 
 .about-separator {
   margin: 20px 0;
-  font-size: 1.5rem;
+}
+
+.separator-olive {
+  height: 40px;
+  width: auto;
 }
 
 .about-text {
@@ -1591,8 +1597,15 @@ ul { list-style: none; }
   font-family: var(--ff-heading);
   font-size: 1.6rem;
   color: var(--c-white);
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 16px;
+}
+
+.footer-logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .footer-brand p {
@@ -1799,7 +1812,7 @@ ul { list-style: none; }
   }
 
   .logo-icon {
-    font-size: 1.4rem;
+    height: 28px;
   }
 
   .nav-toggle { display: flex; }
