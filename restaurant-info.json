@@ -1,0 +1,110 @@
+{
+  "nom": "L'Olivier-Montargis",
+  "nom_court": "L'Olivier",
+  "type_cuisine": [
+    "Marocaine",
+    "Maghrébine",
+    "Couscous",
+    "Tajine",
+    "Orientale",
+    "Halal"
+  ],
+  "description": "Restaurant marocain et maghrébin spécialisé dans le couscous et les tajines, reconnu pour ses plats généreux, son accueil chaleureux familial et son cadre agréable avec terrasse fleurie et jardin.",
+  "adresse": {
+    "rue": "101 Rue des Déportés et Internés de la Résistance",
+    "code_postal": "45200",
+    "ville": "Montargis",
+    "departement": "Loiret",
+    "region": "Centre-Val de Loire",
+    "pays": "France"
+  },
+  "coordonnees_gps": {
+    "latitude": 47.9933047,
+    "longitude": 2.7451644
+  },
+  "contact": {
+    "telephone_fixe": "02 38 98 70 53",
+    "telephone_mobile": "+33 6 84 33 19 44",
+    "telephone_international": "+33 2 38 98 70 53"
+  },
+  "reseaux_sociaux": {
+    "facebook": "https://www.facebook.com/LOlivierMontargis",
+    "instagram_location": "https://www.instagram.com/explore/locations/294984721297822/restaurant-lolivier-montargis/"
+  },
+  "horaires": {
+    "lundi": { "statut": "Fermé" },
+    "mardi": { "statut": "Fermé" },
+    "mercredi": {
+      "statut": "Ouvert",
+      "midi": { "ouverture": "12:00", "fermeture": "14:30" },
+      "soir": { "ouverture": "19:30", "fermeture": "22:00" }
+    },
+    "jeudi": {
+      "statut": "Ouvert",
+      "midi": { "ouverture": "12:00", "fermeture": "14:30" },
+      "soir": { "ouverture": "19:30", "fermeture": "22:00" }
+    },
+    "vendredi": {
+      "statut": "Ouvert",
+      "midi": { "ouverture": "12:00", "fermeture": "14:30" },
+      "soir": { "ouverture": "19:30", "fermeture": "22:00" }
+    },
+    "samedi": {
+      "statut": "Ouvert",
+      "midi": { "ouverture": "12:00", "fermeture": "14:30" },
+      "soir": { "ouverture": "19:30", "fermeture": "22:00" }
+    },
+    "dimanche": {
+      "statut": "Ouvert",
+      "midi": { "ouverture": "12:00", "fermeture": "14:30" },
+      "soir": { "statut": "Fermé" }
+    }
+  },
+  "prix_moyen_par_personne": {
+    "min": 16,
+    "max": 30,
+    "devise": "EUR",
+    "gamme": "Modéré"
+  },
+  "notations": {
+    "google_maps": {
+      "note": 4.3,
+      "sur": 5,
+      "nombre_avis": 283
+    },
+    "restaurant_guru": {
+      "note": 4.5,
+      "sur": 5,
+      "nombre_avis": 236
+    },
+    "mon_resto_halal": {
+      "note": 4.5,
+      "sur": 5,
+      "nombre_avis": 240,
+      "halal_score": "A"
+    },
+    "mappy": {
+      "note": 3.4,
+      "sur": 5,
+      "nombre_avis": 6
+    }
+  },
+  "gerant": {
+    "nom": "Ali Chiha",
+    "role": "Gérant / Propriétaire"
+  },
+  "parking_proximite": {
+    "nom": "Parking Dorée",
+    "distance_metres": 705
+  },
+  "sources_donnees": [
+    "https://menuweb.menu/restaurants/montargis/lolivier-montargis",
+    "https://mon-resto-halal.com/restaurant/lolivier-montargis-montargis",
+    "https://restaurantguru.com/Lolivier-Montargis",
+    "https://fr.mappy.com/poi/553c1afbe4b019957deb3235",
+    "https://restaurant.restaurants-de-france.fr/l-olivier-montargis-1269456.html",
+    "https://www.eat-list.fr/montargis-45200/marocain-et-couscous-17/l-olivier-156116",
+    "https://lacarte.menu/restaurants/montargis/lolivier-montargis"
+  ],
+  "date_scraping": "2026-02-24"
+}

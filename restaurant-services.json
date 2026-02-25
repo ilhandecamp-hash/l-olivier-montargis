@@ -1,0 +1,107 @@
+{
+  "restaurant": "L'Olivier-Montargis",
+  "services_restauration": {
+    "sur_place": true,
+    "a_emporter": true,
+    "livraison": true,
+    "livraison_sans_contact": true,
+    "traiteur": true
+  },
+  "reservations": {
+    "disponible": true,
+    "recommandee": true,
+    "en_ligne": true,
+    "telephone": "02 38 98 70 53"
+  },
+  "equipements": {
+    "terrasse": true,
+    "terrasse_description": "Belle terrasse fleurie avec exposition au soleil",
+    "jardin": true,
+    "parking_gratuit": true,
+    "parking_description": "Parking facile et abondant à proximité",
+    "salle_interieure": true,
+    "salle_description": "Belle salle de restaurant, peut être bruyante aux heures de pointe"
+  },
+  "accessibilite": {
+    "acces_handicape": true,
+    "entree_accessible": true,
+    "parking_accessible": true,
+    "places_assises_accessibles": true,
+    "toilettes_accessibles": true
+  },
+  "divertissement": {
+    "karaoke": true,
+    "diner_spectacle": true,
+    "musique_live": true,
+    "concerts": true,
+    "cabaret": true
+  },
+  "types_repas": {
+    "dejeuner": true,
+    "diner": true,
+    "repas_groupe": true,
+    "repas_affaires": true,
+    "celebrations": true,
+    "organisation_reception": true,
+    "repas_famille": true
+  },
+  "public": {
+    "familles_avec_enfants": true,
+    "menu_enfant": true,
+    "groupes": true,
+    "repas_solo": true,
+    "couples": true,
+    "animaux_acceptes": true
+  },
+  "moyens_paiement": {
+    "carte_bancaire": true,
+    "visa": true,
+    "mastercard": true,
+    "american_express": true,
+    "carte_debit": true,
+    "nfc_mobile": true,
+    "titres_restaurant": true,
+    "especes": true
+  },
+  "certifications": {
+    "halal": {
+      "certifie": true,
+      "score": "A",
+      "methode_certification": "Certifié par le propriétaire du restaurant",
+      "reconnaissance_internet": true
+    }
+  },
+  "regime_alimentaire": {
+    "halal": true,
+    "vegetarien": true,
+    "attention_allergies": true,
+    "allergies_gluten": "Personnel attentif aux allergies au gluten"
+  },
+  "ambiance": {
+    "style": "Orientale / Maghrébine traditionnelle",
+    "atmosphere": "Chaleureuse et familiale",
+    "decoration": "Simple mais élégante, intérieur soigné",
+    "cadre": "Agréable avec terrasse fleurie",
+    "bruit": "Salle parfois bruyante aux heures de pointe"
+  },
+  "equipe": {
+    "proprietaire_gerant": "Ali Chiha",
+    "ambiance_familiale": true,
+    "fils_en_service": true,
+    "description": "Famille Chiha très accueillante, service souriant et attentif malgré l'affluence"
+  },
+  "photos_disponibles": {
+    "facade": true,
+    "salle_interieure": true,
+    "plats": true,
+    "source_photos": "Facebook (LOlivierMontargis)"
+  },
+  "sources_donnees": [
+    "https://fr.mappy.com/poi/553c1afbe4b019957deb3235",
+    "https://restaurant.restaurants-de-france.fr/l-olivier-montargis-1269456.html",
+    "https://www.eat-list.fr/montargis-45200/marocain-et-couscous-17/l-olivier-156116",
+    "https://mon-resto-halal.com/restaurant/lolivier-montargis-montargis",
+    "https://menuweb.menu/restaurants/montargis/lolivier-montargis"
+  ],
+  "date_scraping": "2026-02-24"
+}

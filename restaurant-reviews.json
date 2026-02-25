@@ -1,0 +1,418 @@
+{
+  "restaurant": "L'Olivier-Montargis",
+  "resume_avis": {
+    "note_moyenne_globale": 4.4,
+    "total_avis_estimes": 283,
+    "repartition_notes": {
+      "5_etoiles": "majorité",
+      "4_etoiles": "fréquent",
+      "3_etoiles": "rare",
+      "2_etoiles": "très rare",
+      "1_etoile": "très rare"
+    },
+    "points_forts": [
+      "Qualité exceptionnelle du couscous (souvent cité comme le meilleur de la région)",
+      "Accueil chaleureux et familial (Ali Chiha et son fils)",
+      "Portions très généreuses et copieuses",
+      "Semoule fine et épices parfaitement équilibrées",
+      "Viandes de qualité (halal certifié)",
+      "Cadre agréable avec terrasse fleurie",
+      "Bon rapport qualité-prix (20-30€/personne)",
+      "Personnel souriant et attentif malgré la charge de travail",
+      "Parking gratuit et facile",
+      "Adapté aux familles avec enfants"
+    ],
+    "points_faibles": [
+      "Salle parfois bruyante lors des heures de pointe",
+      "Service parfois trop rapide empêchant de profiter du repas",
+      "Desserts parfois industriels plutôt que faits maison",
+      "Problèmes ponctuels de réservation téléphonique",
+      "Quelques rares expériences négatives avec l'accueil"
+    ]
+  },
+  "avis_detailles": [
+    {
+      "auteur": "Didier Widdershoven",
+      "note": 5,
+      "date": "2025-08-14",
+      "texte": "Très bon restaurant. Accueil excellent. Bravo",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Jéan Orsucci",
+      "note": 4,
+      "date": "2025-08-03",
+      "texte": "Je ne mets pas cinq étoiles mais je pourrai. Que ce soit la nourriture ou le personnel. Tout était vraiment très très bien.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Paulard Dominique",
+      "note": 5,
+      "date": "2025-07-28",
+      "texte": "Très bon rapport qualité prix ! Bon accueil, service rapide. Couscous excellent et copieux.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Paloas Ler",
+      "note": 4,
+      "date": "2025-07-01",
+      "texte": "Je recommande sans hésiter, bel espace, bonne cuisine et surtout equipe formidable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Eddy Berger",
+      "note": 4,
+      "date": "2025-06-29",
+      "texte": "Couscous et tajine de qualité. Service attentif aux allergies au gluten.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Cécile Lecuyer",
+      "note": 5,
+      "date": "2025-05-29",
+      "texte": "Très bon restaurant le couscous un délice on reviendra l accueil très agréable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Valérie Michel",
+      "note": 5,
+      "date": "2025-05-12",
+      "texte": "Très bon et copieux. Prix raisonnable. Personnel très aimable, de bons conseils aux clients.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Bertille Moreau",
+      "note": 3,
+      "date": "2025-02-22",
+      "texte": "Desserts surgelés mais couscous correct. Bonne ambiance pour les groupes.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Fred Glaume",
+      "note": 5,
+      "date": "2025-02-10",
+      "texte": "Une salle un peu bruyante, mais une cuisine généreuse et un service bienveillant.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Norbert Cremel",
+      "note": 5,
+      "date": "2025-02-09",
+      "texte": "Cadre agréable, serveuse très agréable malgré l'affluence.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Gauthier Jennifer",
+      "note": 5,
+      "date": "2025-02-08",
+      "texte": "Très belle découverte ! Très bon couscous, très bon accueil et belle salle de restaurant.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Christian Moulin",
+      "note": 4,
+      "date": "2024-10-12",
+      "texte": "Une excellente découverte. Je reviendrai me faire plaisir. Une famille très sympa.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Stephanie Pereira",
+      "note": 5,
+      "date": "2024-09-20",
+      "texte": "Couscous et tajines excellents. Le jeune qui nous a servi était très souriant et aimable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Marthe Marie Jose",
+      "note": 5,
+      "date": "2024-08-28",
+      "texte": "Ambiance familiale, le fils du propriétaire très sympathique au service.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Jocelyne VESNOC",
+      "note": 5,
+      "date": "2024-06-25",
+      "texte": "Très bien accueilli. Plats copieux, très bon accueil, service rapide. Adresse à garder.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Alexandra Macon",
+      "note": 5,
+      "date": "2024-06-19",
+      "texte": "Très bon couscous, beaucoup de goût et viandes de qualité. Serveur sympa.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Def Korn",
+      "note": 5,
+      "date": "2024-05-18",
+      "texte": "Service attentif, le personnel passe vérifier régulièrement si tout va bien.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "DOMINIQUE",
+      "pseudo": "dominique-bourdais",
+      "note": 5,
+      "date": "2024-05-17",
+      "texte": "Très bon restaurant, prix raisonnables. Tajine et couscous royal excellents. Parking gratuit abondant. Service amical.",
+      "prix_mentionne": "20-30€ par personne",
+      "source": "lacarte.menu"
+    },
+    {
+      "auteur": "Aurel",
+      "note": 5,
+      "date": "2024-05-03",
+      "texte": "Ambiance chaleureuse, portions généreuses, service rapide.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Ludovic J",
+      "note": 5,
+      "date": "2024-04-21",
+      "texte": "Tout était parfait ! Bravo à l'équipe !",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Max",
+      "note": 5,
+      "date": "2024-04-04",
+      "texte": "Un vrai délice sous tout points de vu! La viande est excellente.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Denzel",
+      "note": 5,
+      "date": "2024-03-28",
+      "texte": "Recommande vivement la qualité du couscous.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Jean-Louis Azencott",
+      "note": 5,
+      "date": "2024-03-24",
+      "texte": "Le meilleur couscous de la région, ingrédients de qualité.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Christelle Philippe",
+      "note": 1,
+      "date": "2024-03-10",
+      "texte": "Réservation oubliée pour l'anniversaire de grand-mère. Expérience très négative.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Linda Loiseau",
+      "note": 5,
+      "date": "2024-02-18",
+      "texte": "Très bonne expérience, restaurant accueillant, service parfait.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Arzu Demirtay",
+      "note": 5,
+      "date": "2023-11-24",
+      "texte": "Portions généreuses et personnel sympathique.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Sophie Blandin",
+      "note": 5,
+      "date": "2023-11-13",
+      "texte": "Recommande le tajine poulet olives.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Pascale Jobert",
+      "note": 4,
+      "date": "2023-11-11",
+      "texte": "Service trop rapide, empêche de se détendre. Cuisine bonne.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Elisabeth Elhaimer",
+      "note": 4,
+      "date": "2023-11-05",
+      "texte": "Qualité de la nourriture bonne mais rythme de service trop rapide.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Hamoud Djemai",
+      "note": 1,
+      "date": "2023-11-04",
+      "texte": "Téléphone non fonctionnel et accueil désagréable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Jerome Cochet",
+      "note": 4,
+      "date": "2023-10-11",
+      "texte": "Restaurant très convivial sympathique, on mange correctement.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Claude Peries",
+      "note": 5,
+      "date": "2023-09-17",
+      "texte": "Brick à l'oeuf, foie de veau et île flottante excellents.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Sophie Jalady",
+      "note": 5,
+      "date": "2023-08-04",
+      "texte": "Cadre magnifique et cuisine de qualité.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Pascale Audat",
+      "note": 5,
+      "date": "2023-05-18",
+      "texte": "Super accueil, cadre très agréable (belle terrasse), excellent couscous.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Placide Deligny",
+      "note": 5,
+      "date": "2023-05-07",
+      "texte": "Produits frais et préparations de viande de qualité.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "ChristL T",
+      "note": 5,
+      "date": "2023-04-23",
+      "texte": "Portions généreuses et menu enfant de qualité.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Sunshine Sun",
+      "note": 5,
+      "date": "2023-04-15",
+      "texte": "Un super couscous, qualité et quantité au top. Personnel super aimable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Amanda Bab",
+      "note": 5,
+      "date": "2023-03-27",
+      "texte": "Cuisine maison, service sympathique. Idéal pour célébrations.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Florence Bouchette",
+      "note": 5,
+      "date": "2023-03-05",
+      "texte": "Super restaurant bien accueilli. Copieux, très très bon le couscous.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Marie Letellier",
+      "note": 5,
+      "date": "2023-02-25",
+      "texte": "Couscous parfaitement épicé et service excellent.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "ChocoLéandre",
+      "note": 4,
+      "date": "2022-12-04",
+      "texte": "Bon couscous et merguez, prix raisonnables.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Celine Mellent",
+      "note": 5,
+      "date": "2022-10-19",
+      "texte": "Semoule de qualité et viande rôtie excellente.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Nathalie Chevallier",
+      "note": 5,
+      "date": "2022-09-04",
+      "texte": "Cadre charmant, plats parfumés et personnel agréable.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Outfit_PRS Eychenne",
+      "note": 5,
+      "date": "2022-07-22",
+      "texte": "Tout fait maison des entrées aux desserts.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Bibiche4592 Béatrice",
+      "note": 1,
+      "date": "2022-03-11",
+      "texte": "Viande manquante dans le couscous commandé.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Olaf Mengdehl",
+      "note": 5,
+      "date": "2022-02-12",
+      "texte": "Bon repas en famille, bon accueil, plats savoureux.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Fanou 45",
+      "note": 5,
+      "date": "2021-09-19",
+      "texte": "Semoule fine et couscous à emporter de qualité.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Annick-Cécile Dylis",
+      "note": 5,
+      "date": "2021-09-07",
+      "texte": "Régularité dans la qualité au fil du temps. Traitement familial.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Shiinzo X",
+      "note": 4,
+      "date": "2021-06-30",
+      "texte": "Excellent couscous, légère réticence pour les suppléments.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    },
+    {
+      "auteur": "Caroline Charrier",
+      "note": 5,
+      "date": "2019-06-21",
+      "texte": "Familial, couscous varié et portions raisonnables.",
+      "source": "Google Maps via restaurants-de-france.fr"
+    }
+  ],
+  "analyse_sentiment": {
+    "positifs_pourcentage": 88,
+    "neutres_pourcentage": 6,
+    "negatifs_pourcentage": 6,
+    "mots_cles_positifs": [
+      "excellent",
+      "copieux",
+      "généreux",
+      "accueil chaleureux",
+      "qualité",
+      "délice",
+      "familial",
+      "rapport qualité-prix",
+      "terrasse",
+      "meilleur couscous"
+    ],
+    "mots_cles_negatifs": [
+      "bruyant",
+      "rapide",
+      "réservation",
+      "industriel",
+      "désagréable"
+    ]
+  },
+  "sources_donnees": [
+    "https://restaurant.restaurants-de-france.fr/l-olivier-montargis-1269456.html",
+    "https://lacarte.menu/restaurants/montargis/lolivier-montargis",
+    "https://mon-resto-halal.com/restaurant/lolivier-montargis-montargis",
+    "https://restaurantguru.com/Lolivier-Montargis"
+  ],
+  "date_scraping": "2026-02-24"
+}

@@ -1,0 +1,197 @@
+{
+  "restaurant": "L'Olivier-Montargis",
+  "note": "Le menu détaillé avec les prix exacts n'est pas disponible en ligne. Les informations ci-dessous sont reconstituées à partir des avis clients, photos et plateformes de référencement.",
+  "prix_moyen_par_personne": "20-30 EUR",
+  "specialites": [
+    {
+      "categorie": "Couscous",
+      "plats": [
+        {
+          "nom": "Couscous Royal",
+          "description": "Couscous avec semoule fine, viandes variées (merguez, brochette, boulette), légumes. Plat signature du restaurant, régulièrement cité comme le meilleur couscous de la région.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        },
+        {
+          "nom": "Couscous Végétarien",
+          "description": "Couscous aux légumes, option végétarienne disponible.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": false
+        },
+        {
+          "nom": "Couscous Merguez",
+          "description": "Couscous accompagné de merguez grillées.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        }
+      ]
+    },
+    {
+      "categorie": "Tajines",
+      "plats": [
+        {
+          "nom": "Tajine au Poulet Citron",
+          "description": "Tajine de poulet aux citrons confits, spécialité marocaine traditionnelle.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        },
+        {
+          "nom": "Tajine Poulet Olives",
+          "description": "Tajine de poulet aux olives, cité comme spécialité de la maison.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        }
+      ]
+    },
+    {
+      "categorie": "Viandes et Grillades",
+      "plats": [
+        {
+          "nom": "Kefta",
+          "description": "Boulettes de viande épicées, spécialité maghrébine.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        },
+        {
+          "nom": "Merguez",
+          "description": "Saucisses épicées grillées, viande halal.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": false
+        },
+        {
+          "nom": "Brochettes",
+          "description": "Brochettes de viande grillées.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        }
+      ]
+    },
+    {
+      "categorie": "Entrées",
+      "plats": [
+        {
+          "nom": "Brick à l'oeuf",
+          "description": "Brick croustillante farcie à l'oeuf, entrée traditionnelle maghrébine. Mentionnée positivement dans les avis.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": false
+        }
+      ]
+    },
+    {
+      "categorie": "Autres plats",
+      "plats": [
+        {
+          "nom": "Canard",
+          "description": "Plat de canard, mentionné comme 'très bon' dans les avis clients.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        },
+        {
+          "nom": "Foie de veau",
+          "description": "Foie de veau, mentionné positivement dans un avis.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        },
+        {
+          "nom": "Agneau",
+          "description": "Plat à base d'agneau, ingrédient listé dans les menus en ligne.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        }
+      ]
+    },
+    {
+      "categorie": "Desserts",
+      "plats": [
+        {
+          "nom": "Île flottante",
+          "description": "Dessert mentionné positivement dans les avis. Note : certains avis signalent des desserts industriels plutôt que faits maison.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        }
+      ]
+    },
+    {
+      "categorie": "Boissons",
+      "plats": [
+        {
+          "nom": "Thé à la menthe marocain",
+          "description": "Thé à la menthe traditionnel marocain.",
+          "prix_estime": null,
+          "populaire": true,
+          "recommande": true
+        },
+        {
+          "nom": "Mojito",
+          "description": "Cocktail rafraîchissant disponible au bar.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        },
+        {
+          "nom": "Vins",
+          "description": "Sélection de vins disponible.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        },
+        {
+          "nom": "Boissons sans alcool",
+          "description": "Sodas et boissons non alcoolisées.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        }
+      ]
+    },
+    {
+      "categorie": "Menu Enfant",
+      "plats": [
+        {
+          "nom": "Menu Enfant",
+          "description": "Menu dédié aux enfants disponible, mentionné comme étant de qualité dans les avis.",
+          "prix_estime": null,
+          "populaire": false,
+          "recommande": false
+        }
+      ]
+    }
+  ],
+  "ingredients_principaux": [
+    "Semoule fine",
+    "Épices maghrébines",
+    "Légumes frais",
+    "Canard",
+    "Agneau",
+    "Poulet",
+    "Merguez",
+    "Citrons confits",
+    "Olives"
+  ],
+  "regimes_alimentaires": [
+    "Halal",
+    "Végétarien (option disponible)",
+    "Attention aux allergies au gluten (personnel attentif)"
+  ],
+  "sources_donnees": [
+    "https://restaurantguru.com/Lolivier-Montargis/menu",
+    "https://lacarte.menu/restaurants/montargis/lolivier-montargis",
+    "https://mon-resto-halal.com/restaurant/lolivier-montargis-montargis",
+    "https://menuweb.menu/restaurants/montargis/lolivier-montargis",
+    "Avis clients compilés de multiples plateformes"
+  ],
+  "date_scraping": "2026-02-24"
+}

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="L'Olivier-Montargis — Restaurant marocain et maghrébin à Montargis. Couscous royal, tajines, grillades. Cuisine halal authentique depuis 2013.">
+  <meta name="keywords" content="restaurant, montargis, marocain, couscous, tajine, halal, l'olivier, maghrébin, grillades">
+  <meta name="author" content="Velum Studio">
+  <meta property="og:title" content="L'Olivier-Montargis — Restaurant Marocain">
+  <meta property="og:description" content="Saveurs authentiques du Maghreb à Montargis. Couscous royal, tajines traditionnels, grillades. Terrasse fleurie et accueil familial.">
+  <meta property="og:type" content="restaurant">
+  <title>L'Olivier-Montargis — Restaurant Marocain & Maghrébin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== PRELOADER ========== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-leaf"></div>
+      <div class="preloader-leaf"></div>
+      <div class="preloader-leaf"></div>
+      <span class="preloader-text">L'Olivier</span>
+    </div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar" aria-label="Navigation principale">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">&#127807;</span>
+        <span class="logo-text">L'Olivier</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="menubar">
+        <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Accueil</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">Notre Histoire</a></li>
+        <li role="none"><a href="#specialites" class="nav-link" role="menuitem">Spécialités</a></li>
+        <li role="none"><a href="#carte" class="nav-link" role="menuitem">La Carte</a></li>
+        <li role="none"><a href="#galerie" class="nav-link" role="menuitem">Galerie</a></li>
+        <li role="none"><a href="#avis" class="nav-link" role="menuitem">Avis</a></li>
+        <li role="none"><a href="#contact" class="nav-link nav-link-cta" role="menuitem">Réserver</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg" style="background-image: url('phototablenouritturedehors.png')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge anim-fade-down">Restaurant Marocain & Maghrébin</div>
+      <h1 class="hero-title">
+        <span class="hero-title-line anim-fade-up">L'Olivier</span>
+        <span class="hero-title-accent anim-fade-up delay-1">Montargis</span>
+      </h1>
+      <p class="hero-subtitle anim-fade-up delay-2">Des saveurs authentiques du Maghreb,<br>une tradition familiale depuis 2013</p>
+      <div class="hero-cta anim-fade-up delay-3">
+        <a href="#carte" class="btn btn-primary">Découvrir la Carte</a>
+        <a href="#contact" class="btn btn-outline">Réserver une Table</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Défiler</span>
+      <div class="scroll-arrow"></div>
+    </div>
+    <div class="hero-decorative-left"></div>
+    <div class="hero-decorative-right"></div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about">
+    <div class="moroccan-divider-top"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images reveal-left">
+          <div class="about-img-main">
+            <img src="tajine1.png" alt="Tajine traditionnel servi à L'Olivier" loading="lazy">
+          </div>
+          <div class="about-img-secondary">
+            <img src="tablebienremplieintérieure.png" alt="Intérieur chaleureux du restaurant" loading="lazy">
+          </div>
+          <div class="about-experience-badge">
+            <span class="experience-number" data-count="12">0</span>
+            <span class="experience-label">années<br>d'expérience</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <span class="section-tag">Notre Histoire</span>
+          <h2 class="section-title">Une passion familiale<br>pour la <em>cuisine authentique</em></h2>
+          <div class="about-separator">
+            <span class="separator-olive">&#127807;</span>
+          </div>
+          <p class="about-text">
+            Depuis 2013, la famille Chiha vous accueille au cœur de Montargis pour un voyage culinaire
+            au Maghreb. Notre chef Ali Chiha sublime les recettes traditionnelles marocaines avec des
+            produits frais et des épices soigneusement sélectionnées.
+          </p>
+          <p class="about-text">
+            Du couscous royal généreux aux tajines mijotés avec amour, chaque plat raconte l'histoire
+            de nos origines et de notre savoir-faire transmis de génération en génération. Notre terrasse
+            fleurie et notre salle chaleureuse vous transportent dans une ambiance orientale authentique.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">&#127869;</div>
+              <div>
+                <strong>Fait Maison</strong>
+                <span>Produits frais & recettes traditionnelles</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">&#9757;</div>
+              <div>
+                <strong>Certifié Halal</strong>
+                <span>Viandes halal de qualité</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">&#127796;</div>
+              <div>
+                <strong>Terrasse & Jardin</strong>
+                <span>Cadre fleuri et agréable</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Stats Bar -->
+      <div class="stats-bar reveal-up">
+        <div class="stat-item">
+          <span class="stat-number" data-count="283">0</span>
+          <span class="stat-label">Avis Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="4" data-decimal=".3">0</span>
+          <span class="stat-label">Note Moyenne / 5</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="12">0</span>
+          <span class="stat-label">Années d'Expérience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Fait Maison</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SPECIALITES ========== -->
+  <section id="specialites" class="section specialites">
+    <div class="parallax-bg" style="background-image: url('tajine.png')"></div>
+    <div class="section-overlay"></div>
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <span class="section-tag light">Nos Spécialités</span>
+        <h2 class="section-title light">Les incontournables<br>de <em>L'Olivier</em></h2>
+        <p class="section-subtitle light">Des plats généreux préparés avec passion et des ingrédients de première qualité</p>
+      </div>
+      <div class="specialites-grid">
+        <div class="specialite-card reveal-up delay-0">
+          <div class="specialite-img">
+            <img src="tajine1.png" alt="Tajine Poulet Citron" loading="lazy">
+            <div class="specialite-overlay">
+              <span class="specialite-tag">Signature</span>
+            </div>
+          </div>
+          <div class="specialite-content">
+            <h3>Tajine Poulet Citron</h3>
+            <p>Poulet mijoté aux citrons confits et olives, parfumé aux épices orientales. Un classique incontournable.</p>
+            <div class="specialite-meta">
+              <span class="meta-tag">Populaire</span>
+              <span class="meta-tag">Halal</span>
+            </div>
+          </div>
+        </div>
+        <div class="specialite-card reveal-up delay-1">
+          <div class="specialite-img">
+            <img src="photoassiètemerguezbrochettedepoulet.png" alt="Couscous Royal" loading="lazy">
+            <div class="specialite-overlay">
+              <span class="specialite-tag">Best-seller</span>
+            </div>
+          </div>
+          <div class="specialite-content">
+            <h3>Couscous Royal</h3>
+            <p>Semoule fine accompagnée de merguez, brochettes de poulet et boulettes. Le plat emblématique de la maison.</p>
+            <div class="specialite-meta">
+              <span class="meta-tag">N°1 des ventes</span>
+              <span class="meta-tag">Généreux</span>
+            </div>
+          </div>
+        </div>
+        <div class="specialite-card reveal-up delay-2">
+          <div class="specialite-img">
+            <img src="assièteharicot.png" alt="Loubia - Haricots blancs" loading="lazy">
+            <div class="specialite-overlay">
+              <span class="specialite-tag">Traditionnel</span>
+            </div>
+          </div>
+          <div class="specialite-content">
+            <h3>Loubia Maison</h3>
+            <p>Ragoût de haricots blancs mijoté avec viande et épices, servi avec une salade fraîche. Un plat réconfortant.</p>
+            <div class="specialite-meta">
+              <span class="meta-tag">Fait maison</span>
+              <span class="meta-tag">Copieux</span>
+            </div>
+          </div>
+        </div>
+        <div class="specialite-card reveal-up delay-3">
+          <div class="specialite-img">
+            <img src="pouletpatatetomatesalade.png" alt="Poulet rôti aux épices" loading="lazy">
+            <div class="specialite-overlay">
+              <span class="specialite-tag">Savoureux</span>
+            </div>
+          </div>
+          <div class="specialite-content">
+            <h3>Poulet Rôti aux Épices</h3>
+            <p>Poulet doré aux épices orientales, pommes de terre fondantes et salade fraîche. Simple et délicieux.</p>
+            <div class="specialite-meta">
+              <span class="meta-tag">Familial</span>
+              <span class="meta-tag">Halal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARTE / MENU ========== -->
+  <section id="carte" class="section carte">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <span class="section-tag">La Carte</span>
+        <h2 class="section-title">Notre Menu</h2>
+        <p class="section-subtitle">Des saveurs qui voyagent du Maghreb jusqu'à votre assiette</p>
+      </div>
+
+      <!-- Menu Tabs -->
+      <div class="menu-tabs reveal-up">
+        <button class="menu-tab active" data-tab="entrees">Entrées</button>
+        <button class="menu-tab" data-tab="couscous">Couscous</button>
+        <button class="menu-tab" data-tab="tajines">Tajines</button>
+        <button class="menu-tab" data-tab="grillades">Grillades</button>
+        <button class="menu-tab" data-tab="desserts">Desserts & Boissons</button>
+      </div>
+
+      <!-- Menu Panels -->
+      <div class="menu-panels">
+        <!-- Entrées -->
+        <div class="menu-panel active" id="panel-entrees">
+          <div class="menu-panel-grid">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Brick au Thon</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">7€</span>
+              </div>
+              <p class="menu-item-desc">Croustillante brick dorée farcie au thon et aux herbes</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Brick à l'Œuf</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">6€</span>
+              </div>
+              <p class="menu-item-desc">Feuille de brick croustillante garnie d'un œuf fondant</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Méchouia</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">7€</span>
+              </div>
+              <p class="menu-item-desc">Salade de poivrons grillés aux tomates et épices</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Chèvre Chaud</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">8€</span>
+              </div>
+              <p class="menu-item-desc">Toasts au chèvre frais fondant sur lit de salade</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Assiette de Légumes</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">8€</span>
+              </div>
+              <p class="menu-item-desc">Assortiment de légumes grillés aux épices douces</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Salade Fraîcheur</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">8€</span>
+              </div>
+              <p class="menu-item-desc">Salade fraîche composée de crudités de saison</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Couscous -->
+        <div class="menu-panel" id="panel-couscous">
+          <div class="menu-panel-grid">
+            <div class="menu-item featured">
+              <div class="menu-item-badge">&#11088; Best-seller</div>
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Royal</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">22€</span>
+              </div>
+              <p class="menu-item-desc">Merguez, brochette, boulette de kefta. Semoule fine et bouillon de légumes</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Poulet</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Cuisses de poulet tendres mijotées dans un bouillon parfumé aux épices</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Merguez</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Merguez grillées maison sur semoule fine et légumes</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Agneau</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">18€</span>
+              </div>
+              <p class="menu-item-desc">Morceaux d'agneau tendres longuement mijotés aux légumes</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Kefta</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Boulettes de viande épicées faites maison, semoule et légumes</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Couscous Végétarien</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">14€</span>
+              </div>
+              <p class="menu-item-desc">Légumes de saison mijotés dans un bouillon parfumé, semoule fine</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tajines -->
+        <div class="menu-panel" id="panel-tajines">
+          <div class="menu-panel-grid">
+            <div class="menu-item featured">
+              <div class="menu-item-badge">&#127775; Signature</div>
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Tajine Poulet Citron Confit</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Poulet mijoté aux citrons confits et olives, parfumé au safran</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Tajine Poulet Olives</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Poulet fondant aux olives vertes et herbes aromatiques</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Tajine Agneau Pruneaux</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">18€</span>
+              </div>
+              <p class="menu-item-desc">Agneau confit aux pruneaux, amandes et miel. Sucré-salé traditionnel</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Tajine Kefta</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">16€</span>
+              </div>
+              <p class="menu-item-desc">Boulettes de viande épicées dans une sauce tomate relevée</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Suggestion du Chef</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">—</span>
+              </div>
+              <p class="menu-item-desc">Découvrez la création du jour de notre chef. Demandez en salle !</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grillades -->
+        <div class="menu-panel" id="panel-grillades">
+          <div class="menu-panel-grid">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Assiette Merguez</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">15€</span>
+              </div>
+              <p class="menu-item-desc">Merguez grillées servies avec frites et salade fraîche</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Brochettes de Poulet</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">15€</span>
+              </div>
+              <p class="menu-item-desc">Brochettes marinées aux épices, grillées au feu de bois</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Assiette Mixte Grillades</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">18€</span>
+              </div>
+              <p class="menu-item-desc">Merguez, brochettes de poulet, accompagnement au choix</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Méchoui</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">18€</span>
+              </div>
+              <p class="menu-item-desc">Agneau rôti lentement, tendre et parfumé</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Menu Enfant</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">10€</span>
+              </div>
+              <p class="menu-item-desc">Plat au choix adapté + boisson + dessert</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts & Boissons -->
+        <div class="menu-panel" id="panel-desserts">
+          <div class="menu-panel-grid">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Pâtisseries Orientales</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">8€</span>
+              </div>
+              <p class="menu-item-desc">Assortiment de cornes de gazelle, baklavas et makrouts</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Crêpes au Chocolat</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">6€</span>
+              </div>
+              <p class="menu-item-desc">Crêpes chaudes nappées de chocolat fondant</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Salade de Fruits</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">6€</span>
+              </div>
+              <p class="menu-item-desc">Fruits frais de saison découpés</p>
+            </div>
+            <div class="menu-item-separator"></div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Thé à la Menthe</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">3€</span>
+              </div>
+              <p class="menu-item-desc">Thé vert à la menthe fraîche, servi en théière traditionnelle</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Café / Expresso</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">2€</span>
+              </div>
+              <p class="menu-item-desc">Café arabica servi à la marocaine ou en expresso</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-name">Boissons Fraîches</h4>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">3€</span>
+              </div>
+              <p class="menu-item-desc">Sodas, jus de fruits, eaux minérales</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Image CTA -->
+      <div class="menu-image-cta reveal-up">
+        <p>Consultez notre carte complète</p>
+        <a href="menu.png" target="_blank" class="btn btn-primary">Voir le Menu Complet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BANNER CTA ========== -->
+  <section class="banner-cta">
+    <div class="parallax-bg" style="background-image: url('merguez.png')"></div>
+    <div class="section-overlay dark"></div>
+    <div class="container">
+      <div class="banner-content reveal-up">
+        <h2>Envie d'un moment savoureux ?</h2>
+        <p>Réservez votre table et laissez-vous transporter par les saveurs du Maghreb</p>
+        <div class="banner-cta-buttons">
+          <a href="tel:0238987053" class="btn btn-primary btn-lg">
+            <span class="btn-icon">&#128222;</span> Appeler : 02 38 98 70 53
+          </a>
+          <a href="#contact" class="btn btn-outline btn-lg light">Nous trouver</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE ========== -->
+  <section id="galerie" class="section galerie">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <span class="section-tag">Galerie</span>
+        <h2 class="section-title">Un festin pour<br>les <em>yeux</em></h2>
+        <p class="section-subtitle">Découvrez nos plats en images</p>
+      </div>
+      <div class="gallery-grid reveal-up">
+        <div class="gallery-item gallery-item-wide" data-index="0">
+          <img src="phototablenouritturedehors.png" alt="Table garnie en terrasse" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Terrasse en été</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="1">
+          <img src="tajine1.png" alt="Tajine poulet citron" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Tajine Poulet</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="photoassiètemerguezbrochettedepoulet.png" alt="Assiette merguez et brochettes" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Grillades Mixtes</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-tall" data-index="3">
+          <img src="tajine2.png" alt="Tajine agneau pruneaux" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Tajine Pruneaux</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img src="merguez.png" alt="Merguez et couscous" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Couscous Merguez</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img src="pouletpatatetomatesalade.png" alt="Poulet rôti et pommes de terre" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Poulet Rôti</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-wide" data-index="6">
+          <img src="tablebienremplieintérieure.png" alt="Table garnie intérieure" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Intérieur du Restaurant</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="7">
+          <img src="assièteharicot.png" alt="Loubia aux haricots" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Loubia Maison</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="8">
+          <img src="photoplatavecgrossefriteépinardetromatesalade.png" alt="Assiette garnie frites et salade" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Assiette Garnie</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-index="9">
+          <img src="photomerguez.png" alt="Merguez gros plan" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-zoom">&#128269;</span>
+            <span class="gallery-caption">Merguez Grillée</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Galerie photos" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Fermer">&times;</button>
+    <button class="lightbox-prev" aria-label="Photo précédente">&#10094;</button>
+    <button class="lightbox-next" aria-label="Photo suivante">&#10095;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- ========== AVIS / TESTIMONIALS ========== -->
+  <section id="avis" class="section avis">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <span class="section-tag">Avis Clients</span>
+        <h2 class="section-title">Ce que disent<br>nos <em>convives</em></h2>
+        <div class="avis-rating-summary">
+          <div class="stars-display">
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star half">&#9733;</span>
+          </div>
+          <span class="rating-text">4.3 / 5 — basé sur 283 avis Google</span>
+        </div>
+      </div>
+
+      <div class="testimonials-carousel reveal-up">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Très bon rapport qualité prix ! Bon accueil, service rapide. Couscous excellent et copieux."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PD</div>
+              <div>
+                <strong>Paulard Dominique</strong>
+                <span>Juillet 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Un vrai délice sous tout points de vue ! La viande est excellente. Le meilleur couscous de la région."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JA</div>
+              <div>
+                <strong>Jean-Louis Azencott</strong>
+                <span>Mars 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Super accueil, cadre très agréable avec la belle terrasse. Excellent couscous, on reviendra !"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PA</div>
+              <div>
+                <strong>Pascale Audat</strong>
+                <span>Mai 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Très belle découverte ! Très bon couscous, très bon accueil et belle salle de restaurant."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">GJ</div>
+              <div>
+                <strong>Gauthier Jennifer</strong>
+                <span>Février 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Couscous et tajines excellents. Le jeune qui nous a servi était très souriant et aimable. Adresse à garder."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SP</div>
+              <div>
+                <strong>Stephanie Pereira</strong>
+                <span>Septembre 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-text">"Un super couscous, qualité et quantité au top. Personnel super aimable. Je recommande vivement."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SS</div>
+              <div>
+                <strong>Sunshine Sun</strong>
+                <span>Avril 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn carousel-prev" aria-label="Avis précédent">&#10094;</button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn carousel-next" aria-label="Avis suivant">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Venez nous<br><em>retrouver</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <!-- Horaires -->
+          <div class="contact-card">
+            <div class="contact-card-icon">&#128340;</div>
+            <h3>Horaires d'Ouverture</h3>
+            <div class="hours-table">
+              <div class="hours-row closed">
+                <span class="hours-day">Lundi</span>
+                <span class="hours-time">Fermé</span>
+              </div>
+              <div class="hours-row closed">
+                <span class="hours-day">Mardi</span>
+                <span class="hours-time">Fermé</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Mercredi</span>
+                <span class="hours-time">12h – 14h30 · 19h30 – 22h</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Jeudi</span>
+                <span class="hours-time">12h – 14h30 · 19h30 – 22h</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Vendredi</span>
+                <span class="hours-time">12h – 14h30 · 19h30 – 22h</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Samedi</span>
+                <span class="hours-time">12h – 14h30 · 19h30 – 22h</span>
+              </div>
+              <div class="hours-row">
+                <span class="hours-day">Dimanche</span>
+                <span class="hours-time">12h – 14h30</span>
+              </div>
+            </div>
+          </div>
+          <!-- Coordonnées -->
+          <div class="contact-card">
+            <div class="contact-card-icon">&#128205;</div>
+            <h3>Nous Contacter</h3>
+            <div class="contact-details">
+              <a href="https://maps.google.com/?q=47.9933047,2.7451644" target="_blank" rel="noopener" class="contact-detail">
+                <span class="detail-icon">&#128204;</span>
+                <span>101 Rue des Déportés et Internés de la Résistance<br>45200 Montargis</span>
+              </a>
+              <a href="tel:0238987053" class="contact-detail">
+                <span class="detail-icon">&#128222;</span>
+                <span>02 38 98 70 53</span>
+              </a>
+              <a href="tel:0684331944" class="contact-detail">
+                <span class="detail-icon">&#128241;</span>
+                <span>06 84 33 19 44</span>
+              </a>
+              <a href="https://www.facebook.com/LOlivierMontargis" target="_blank" rel="noopener" class="contact-detail">
+                <span class="detail-icon">&#127760;</span>
+                <span>Facebook — L'Olivier Montargis</span>
+              </a>
+            </div>
+          </div>
+          <!-- Services -->
+          <div class="contact-card">
+            <div class="contact-card-icon">&#9989;</div>
+            <h3>Nos Services</h3>
+            <div class="services-tags">
+              <span class="service-tag">Sur place</span>
+              <span class="service-tag">À emporter</span>
+              <span class="service-tag">Livraison</span>
+              <span class="service-tag">Terrasse</span>
+              <span class="service-tag">Jardin</span>
+              <span class="service-tag">Parking gratuit</span>
+              <span class="service-tag">Accès PMR</span>
+              <span class="service-tag">Halal</span>
+              <span class="service-tag">Végétarien</span>
+              <span class="service-tag">Réceptions</span>
+              <span class="service-tag">Groupes</span>
+              <span class="service-tag">CB acceptée</span>
+              <span class="service-tag">Titres-restaurant</span>
+            </div>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="contact-map reveal-right">
+          <div class="map-wrapper">
+            <iframe
+              src="https://maps.google.com/maps?q=L%27Olivier+101+Rue+des+D%C3%A9port%C3%A9s+45200+Montargis&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="100%" style="border:0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Carte L'Olivier Montargis"></iframe>
+          </div>
+          <div class="map-cta">
+            <a href="https://maps.google.com/?q=47.9933047,2.7451644" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+              &#128205; Ouvrir dans Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo">&#127807; L'Olivier</span>
+          <p>Restaurant marocain & maghrébin au cœur de Montargis. Saveurs authentiques et accueil familial depuis 2013.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/LOlivierMontargis" target="_blank" rel="noopener" aria-label="Facebook" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/explore/locations/294984721297822/restaurant-lolivier-montargis/" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">Notre Histoire</a></li>
+            <li><a href="#specialites">Spécialités</a></li>
+            <li><a href="#carte">La Carte</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#avis">Avis</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4>Contact</h4>
+          <p>101 Rue des Déportés et Internés de la Résistance<br>45200 Montargis</p>
+          <p><a href="tel:0238987053">02 38 98 70 53</a></p>
+          <p><a href="tel:0684331944">06 84 33 19 44</a></p>
+        </div>
+        <div class="footer-hours">
+          <h4>Horaires</h4>
+          <p>Mer – Sam : 12h–14h30 / 19h30–22h</p>
+          <p>Dim : 12h–14h30</p>
+          <p>Lun – Mar : Fermé</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 L'Olivier-Montargis — Tous droits réservés</p>
+        <p class="footer-credit">Site réalisé par <a href="https://velum.site" target="_blank" rel="noopener">Velum Studio</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

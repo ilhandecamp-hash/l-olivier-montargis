@@ -1,0 +1,67 @@
+{
+  "restaurant": "L'Olivier-Montargis",
+  "raison_sociale": "L'OLIVIER",
+  "forme_juridique": "SARL (Société à responsabilité limitée)",
+  "siren": "792146631",
+  "siret_siege": "79214663100017",
+  "numero_tva_intracommunautaire": "FR45792146631",
+  "rcs": "RCS Orléans 792 146 631",
+  "code_naf_ape": "5610A",
+  "activite_naf": "Restauration traditionnelle",
+  "capital_social": {
+    "montant": 100,
+    "devise": "EUR"
+  },
+  "date_creation": "2013-03-29",
+  "date_immatriculation_rcs": "2013-03-29",
+  "date_inscription_insee": "2013-04-02",
+  "date_inscription_rne": "2013-03-29",
+  "dirigeant": {
+    "nom": "Ali CHIHA",
+    "fonction": "Gérant",
+    "annee_naissance": 1966,
+    "age_approximatif": 59,
+    "en_poste_depuis": "2013-04-03",
+    "duree_en_poste_annees": 12
+  },
+  "siege_social": {
+    "adresse": "101 RUE DEPORTES INTERNES RESISTANCE",
+    "code_postal": "45200",
+    "ville": "MONTARGIS",
+    "departement": "Loiret (45)"
+  },
+  "convention_collective": "Hôtels, Cafés, Restaurants (1979)",
+  "secteur": "Commercial",
+  "statut": "Active - Pas de procédure collective",
+  "effectif": {
+    "tranche": "3 à 5 salariés"
+  },
+  "donnees_financieres": {
+    "exercice_2023": {
+      "chiffre_affaires": 263400,
+      "resultat_net": 4888,
+      "ebitda": 22409,
+      "tresorerie": 36200,
+      "charges_personnel_pct": 35.95,
+      "devise": "EUR"
+    },
+    "exercice_2022": {
+      "chiffre_affaires": 192700,
+      "resultat_net": 10521,
+      "ebitda": 22387,
+      "tresorerie": 30500,
+      "devise": "EUR"
+    },
+    "evolution": {
+      "ca_variation_pct": 36.69,
+      "resultat_variation_pct": -53.54,
+      "commentaire": "Forte croissance du CA (+36.7%) entre 2022 et 2023, mais baisse du résultat net malgré un EBITDA stable."
+    }
+  },
+  "sources_donnees": [
+    "https://www.societe.com/societe/l-olivier-792146631.html",
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/l-olivier-792146631",
+    "https://www.pappers.fr/entreprise/lolivier-792146631"
+  ],
+  "date_scraping": "2026-02-24"
+}
