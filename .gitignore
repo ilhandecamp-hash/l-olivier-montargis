@@ -1,0 +1,8 @@
+node_modules/
+package.json
+package-lock.json
+optimize-images.js
+
+# Original heavy PNG files (kept locally, not deployed)
+*.png
+!img/*.webp
